@@ -1,11 +1,4 @@
 # Web-View-App-Template
 Single web view application template code. You just need change the url from it.
 
-
-/Users/koratabhay/Public/Web-View-App-Template/Simulator Screen Shot - iPhone X - 2018-10-26 at 15.23.54.png
-
-
-/Users/koratabhay/Public/Web-View-App-Template/Simulator Screen Shot - iPhone X - 2018-10-26 at 15.22.53.png
-
-
-/Users/koratabhay/Public/Web-View-App-Template/Simulator Screen Shot - iPhone X - 2018-10-26 at 15.23.16.png
+https://github.com/iOSApplication/Web-View-App-Template/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-10-26%20at%2015.22.53.png
