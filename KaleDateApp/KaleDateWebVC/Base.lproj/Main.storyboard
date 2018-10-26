@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zaI-sO-1Yv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="VSd-2g-glL">
+            <objects>
+                <viewController id="bLx-fa-uWl" customClass="ViewController" customModule="KaleDate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7DD-1Q-p6P"/>
+                        <viewControllerLayoutGuide type="bottom" id="m8b-n4-PSe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bXY-Xx-qq8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashImg" translatesAutoresizingMaskIntoConstraints="NO" id="3ph-cR-lI6">
+                                <rect key="frame" x="34" y="297" width="307" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="307" id="yIi-zF-cdt"/>
+                                    <constraint firstAttribute="height" constant="72" id="yiD-Ls-RUw"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3ph-cR-lI6" firstAttribute="centerY" secondItem="bXY-Xx-qq8" secondAttribute="centerY" id="2BU-Rz-kpR"/>
+                            <constraint firstItem="3ph-cR-lI6" firstAttribute="centerX" secondItem="bXY-Xx-qq8" secondAttribute="centerX" id="B2D-k0-5kZ"/>
+                            <constraint firstItem="3ph-cR-lI6" firstAttribute="width" secondItem="bXY-Xx-qq8" secondAttribute="height" multiplier="307:667" id="exV-Gs-Nlb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="D1Z-Rq-gnB"/>
+                    <connections>
+                        <outlet property="viewObjFadetype" destination="3ph-cR-lI6" id="37r-Lk-RZQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n6J-qN-fnl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QX7-vu-2kr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zaI-sO-1Yv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="heT-aK-khc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bLx-fa-uWl" kind="relationship" relationship="rootViewController" id="0o1-7c-P9o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aJQ-A3-lVz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="206" y="38"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashImg" width="844" height="168"/>
+    </resources>
+</document>
